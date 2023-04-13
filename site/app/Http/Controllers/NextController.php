@@ -169,7 +169,7 @@ class NextController extends Controller
         }
 
         $data['final'][] = $this->new_exercise_add($exercises);
-        $data['ex'][] = 'some';
+        $data['ex'] = 'some';
 
         $cardio = $this->cardio($request);
         $data['cardio'] = $cardio;
